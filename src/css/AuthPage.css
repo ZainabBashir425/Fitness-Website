@@ -1,0 +1,156 @@
+.auth-container{
+    background-color:#000000 ;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.cancelBtn{
+    align-self: flex-end;
+    margin-bottom: 0.5rem;
+}
+.auth-box{
+    background-color:transparent ;
+    width: 40vw; 
+    height: 88% ;
+    border: 5px solid #FFFF00;
+    border-radius: 30px;
+    margin: auto ;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.8;
+    margin: 0 0 1.3rem 0;
+}
+input{
+    width: 100%;
+    margin: 1rem auto;
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 1.2rem;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.4rem;
+}
+input::placeholder{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.4rem;
+}
+button{
+    width: 68%;
+    margin: 1rem auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    padding: 0.75rem 0rem 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    cursor: pointer;
+}
+.auth-link{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+button img{
+    margin-left: 3rem;
+}
+.forgot-password {
+    text-align: right;
+    padding-right: 1.25rem;
+    margin-top: -5px;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    text-decoration: underline;
+  }
+.social-login{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.toggle-auth-link{
+    text-align: end;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.toggle-link{
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Adjustments for tablets */
+@media (max-width: 768px) {
+    .auth-box {
+      width: 70%;
+      padding: 20px;
+    }
+  
+    .auth-button {
+      padding: 12px;
+      font-size: 14px;
+    }
+    button img{
+        margin-left: 2rem;
+    }
+  
+    .social-icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  
+  /* Adjustments for mobile screens */
+  @media (max-width: 480px) {
+    .cancelBtn{
+        margin-bottom: 2rem;
+    }
+    .auth-box {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .auth-box h2 {
+      font-size: 20px;
+    }
+    button img{
+        margin-left: 1.5rem;
+    }
+  
+    .auth-button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .social-login {
+      gap: 15px;
+    }
+  
+    .forgot-password {
+      font-size: 12px;
+    }
+  
+    .toggle-auth-link {
+      font-size: 12px;
+    }
+  }
