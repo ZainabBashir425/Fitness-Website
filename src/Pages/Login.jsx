@@ -9,7 +9,7 @@ function Login() {
       <Link to="/home" className="cancelBtn">
       <img src={cancelbtn} alt="cancel-btn" height="30px"  /></Link>
       <div className="auth-box">
-        <h4 style={{marginBottom:"5rem"}}>Login</h4>
+        <h4 className='bottom-spacing'>Login</h4>
         <form className='auth-form'>
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
@@ -20,7 +20,7 @@ function Login() {
           <Link to="/home" className="auth-link">Login</Link>
           <img src={rightArrow} alt="right" height="34px" width="34px"/></button>
         </form>
-        <div className="toggle-auth-link" style={{marginBottom:"5rem"}}>
+        <div className="toggle-auth-link bottom-spacing">
           <p>Don't Have An Account?<Link to="/" className="toggle-link">SignUp</Link></p>
         </div>
         

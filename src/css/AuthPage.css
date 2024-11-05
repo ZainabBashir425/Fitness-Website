@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 2rem 1.5rem;
 }
 .cancelBtn{
     align-self: flex-end;
@@ -82,6 +82,9 @@ button img{
     line-height: 1.4rem;
     text-decoration: underline;
   }
+  .bottom-spacing{
+    margin-bottom: 5rem;
+  }
 .social-login{
     margin: 2rem;
     display: flex;
@@ -126,8 +129,9 @@ button img{
         margin-bottom: 2rem;
     }
     .auth-box {
-      width: 90%;
+      width: 90vw;
       padding: 15px;
+      margin: 0;
     }
   
     .auth-box h2 {
