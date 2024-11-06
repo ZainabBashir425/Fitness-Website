@@ -6,7 +6,7 @@ import { rightArrow, google, facebook,cancelbtn } from "../assets";
 function SignUp() {
   return (
     <div className="auth-container">
-      <Link to="/home" className="cancelBtn">
+      <Link to="/" className="cancelBtn">
       <img src={cancelbtn} alt="cancel-btn" height="30px"  /></Link>
       <div className="auth-box">
         <h4>Sign Up</h4>
@@ -16,7 +16,7 @@ function SignUp() {
           <input type="password" placeholder="Password" />
           <input type="password" placeholder="Confirm Password" />
           <button className="auth-btn">
-            <Link to="/home" className="auth-link">SignUp</Link>
+            <Link to="/" className="auth-link">SignUp</Link>
             <img src={rightArrow} alt="right" height="34px" width="34px" />
           </button>
           </form>

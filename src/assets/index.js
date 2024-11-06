@@ -2,5 +2,15 @@ import rightArrow from './chevron-right.png'
 import google from './Group 4.png'
 import facebook from './Group 3.png'
 import cancelbtn from './x-01.png'
+import loginIcon from './Icon.png'
+import HeroIcon from './Polygon 1.png'
+import Call from './Call.png'
+import FooterImg from './FooterImg.png'
+import Google from './Google.png'
+import Facebook from './Facebook.png'
+import Instagram from './Instagram.png'
+import Location from './Location.png'
+import Youtube from './Youtube.png'
+import menuIcon from './menuIcon.png'
 
-export {rightArrow, google, facebook,cancelbtn};
+export {rightArrow, google, facebook,cancelbtn,loginIcon,HeroIcon,Call,FooterImg,Facebook,Google,Instagram,Location,Youtube,menuIcon};

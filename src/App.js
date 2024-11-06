@@ -1,9 +1,13 @@
-import React from 'react';
-import './App.css';
-import { Route, createBrowserRouter, createRoutesFromElements,Outlet } from 'react-router-dom'
-import { Login, SignUp,Home } from './Pages'; 
-import Layout from './Layout'
-
+import React from "react";
+import "./App.css";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  Outlet,
+} from "react-router-dom";
+import { Login, SignUp, Home , About , Contact , Blogs , FAQs } from "./Pages";
+import Layout from "./Layout";
 
 function App() {
   return (
@@ -13,14 +17,17 @@ function App() {
   );
 }
 
-
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<App />}>
-      <Route path="" element={<SignUp />} />
+    <Route path="/" element={<App />}>
+      <Route path="signup" element={<SignUp />} />
       <Route path="login" element={<Login />} />
-      <Route element={<Layout />} >
-      <Route path="home" element={<Home />} />
+      <Route element={<Layout />}>
+        <Route path="" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="blogs" element={<Blogs />} />
+        <Route path="faqs" element={<FAQs />} />
+        <Route path="contact" element={<Contact />} />
       </Route>
     </Route>
   )

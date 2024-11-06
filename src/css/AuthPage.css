@@ -46,7 +46,7 @@ input::placeholder{
     color: #ffffff;
     line-height: 1.4rem;
 }
-button{
+.auth-btn{
     width: 68%;
     margin: 1rem auto;
     background-color: #ffffff;

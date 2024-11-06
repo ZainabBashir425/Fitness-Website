@@ -1,0 +1,267 @@
+.footer {
+  background: linear-gradient(187.74deg, #800080 7.1%, #000000 92.9%);
+  padding: 6rem 3.5rem 3rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-section.about {
+  flex-basis: 30vw;
+  flex-grow: 2.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section.links {
+  flex-basis: 8vw;
+  flex-grow: 0.6;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.footer-section.contact {
+  flex-basis: 18vw;
+  flex-grow: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section.image {
+  flex-basis: 30vw;
+  flex-grow: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo and Brand Name */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo-circle {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: #ffff00;
+  margin-right: 10px;
+}
+
+.brandName {
+  font-family: 'Teko';
+  font-weight: 700;
+  font-size: 1.9rem;
+  text-align: justify;
+  line-height: 2.5rem;
+}
+
+/* About Section Text */
+.footer-section.about p {
+  font-size: 18px;
+  line-height: 1.3rem;
+  font-weight: 400;
+  margin: 1.5rem 0.5rem 2rem;
+}
+
+.highlight {
+  color: #ffff00;
+}
+
+/* Social Icons */
+.social-icons {
+  margin-left: 4rem;
+}
+.social-icons img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+/* Links Section */
+.footer-section.links h3 {
+  margin: 2.75rem 0 2.25rem;
+}
+.footer-section.links ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-section.links li {
+  margin-bottom: 1rem;
+}
+.footer-section.links a {
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* Contact Section */
+.footer-section.contact h3 {
+  margin: 2.75rem 0 2.25rem;
+}
+.footer-section.contact p {
+  display: flex;
+  align-items: center;
+  font-size: 1.12rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.footer-section.contact img {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 1rem;
+}
+
+/* Image Section */
+.footer-section.image img {
+  width: 100%;
+  height: 247px;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  text-align: center;
+  background-color: #000000;
+  color: #9B9A9A;
+  padding: 1rem;
+  margin-top: 1px solid #262626;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer-section.about{
+    flex-basis: 48%;
+    margin-bottom: 2rem;
+  }
+  .footer-section.links {
+    flex-basis: 38%; 
+    margin-bottom: 2rem;
+  }
+  
+  .footer-section.contact{
+    flex-basis: 38%; 
+    margin-bottom: 2rem;
+  }
+  .footer-section.image {
+    flex-basis: 38%; 
+    margin-bottom: 2rem;
+  }
+
+  .brandName {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .footer-section.about p {
+    font-size: 16px;
+    line-height: 1.4rem;
+  }
+  
+  .social-icons img {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .footer-section.links a,
+  .footer-section.contact p {
+    font-size: 1rem;
+  }
+  
+  .footer-section.image img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer{
+    padding-right:1rem ;
+    padding-left:1rem ;
+  }
+  .footer-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-section.about {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 0 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section.links{
+    flex-basis: 38%; 
+    text-align: center;
+    max-width: 28vw;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+  .footer-section.contact {
+    flex-basis: 38%; 
+    text-align: center;
+    max-width: 56.35vw;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section.image {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .brandName {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .footer-section.about p {
+    font-size: 15px;
+    line-height: 1.3rem;
+  }
+
+  .footer-section.links h3,
+  .footer-section.contact h3 {
+    font-size: 1.1rem;
+    margin: 1rem 0 1.5rem;
+  }
+
+  .footer-section.links a,
+  .footer-section.contact p {
+    font-size: 0.95rem;
+  }
+
+  .footer-section.image img {
+    height: 160px;
+  }
+
+  .social-icons {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .social-icons img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}

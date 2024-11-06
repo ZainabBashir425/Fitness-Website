@@ -1,0 +1,148 @@
+/* Hero Section */
+.heroSection{
+    background-image: url("../assets/image\ 1.png");
+    scale: fit;
+    background-color: #000000;
+    color: #ffffff;
+    opacity: 90%;
+    background-size: cover;
+    padding: 16rem 6rem 10rem;
+    margin-bottom: 3rem;
+}
+.welsomeMsg, .qoute{
+    font-family: 'Teko';
+    font-weight: 400;
+}
+.welcomeMsg{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.qoute{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+.brand{
+    font-family: 'Teko';
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 6rem;
+}
+.description{
+    margin: 1rem 20rem 3rem 0rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+.session-btn{
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30rem;
+    padding: 0.7rem;
+}
+.session-btn p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+}
+.session-btn .iconImg{
+    height: 2.6rem;
+    width: 2.6rem;
+    align-content: center;
+    text-align: center;
+    padding-left: 0.2rem;
+    padding-top: 0.2rem;
+    background-color: #ffff00;
+    border-radius: 50%;
+}
+.session-btn img{
+    height: 1.3rem;
+    width: 1.55rem;
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        background-image: url("../assets/tabletHero.png");
+        padding: 12rem 3rem 8rem;
+    }
+    
+    .welcomeMsg {
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+    }
+    
+    .brand {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    
+    .qoute {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .description {
+        margin: 1rem 10rem 2rem 0rem;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+    
+    .session-btn {
+        width: 25rem;
+        padding: 0.5rem;
+    }
+    
+    .session-btn p {
+        font-size: 1.3rem;
+    }
+    
+    .session-btn .iconImg {
+        height: 2.4rem;
+        width: 2.4rem;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 450px) {
+    .heroSection {
+        background-image: url("../assets/mobileHero.png");
+        padding: 8rem 1.5rem 6rem;
+    }
+    
+    .welcomeMsg {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .brand {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    
+    .qoute {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+    }
+    
+    .description {
+        margin: 1rem 1rem 2rem 0rem;
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    
+    .session-btn {
+        width: 23rem;
+        padding: 0.4rem;
+    }
+    
+    .session-btn p {
+        font-size: 1.1rem;
+    }
+    
+    .session-btn .iconImg {
+        height: 2rem;
+        width: 2rem;
+    }
+}

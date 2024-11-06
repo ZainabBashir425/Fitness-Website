@@ -6,7 +6,7 @@ import {rightArrow,cancelbtn} from '../assets'
 function Login() {
   return (
     <div className="auth-container">
-      <Link to="/home" className="cancelBtn">
+      <Link to="/" className="cancelBtn">
       <img src={cancelbtn} alt="cancel-btn" height="30px"  /></Link>
       <div className="auth-box">
         <h4 className='bottom-spacing'>Login</h4>
@@ -17,11 +17,11 @@ function Login() {
           <Link>Forgot Password?</Link>
         </div>
         <button className="auth-btn">
-          <Link to="/home" className="auth-link">Login</Link>
+          <Link to="/" className="auth-link">Login</Link>
           <img src={rightArrow} alt="right" height="34px" width="34px"/></button>
         </form>
         <div className="toggle-auth-link bottom-spacing">
-          <p>Don't Have An Account?<Link to="/" className="toggle-link">SignUp</Link></p>
+          <p>Don't Have An Account?<Link to="/signup" className="toggle-link">SignUp</Link></p>
         </div>
         
       </div>
