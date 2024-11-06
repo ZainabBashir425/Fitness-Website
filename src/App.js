@@ -19,10 +19,10 @@ function App() {
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />}>
+    <Route element={<App />}>
       <Route path="signup" element={<SignUp />} />
       <Route path="login" element={<Login />} />
-      <Route element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route path="" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="blogs" element={<Blogs />} />
