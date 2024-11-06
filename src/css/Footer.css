@@ -190,8 +190,7 @@
 
 @media (max-width: 450px) {
   .footer{
-    padding-right:1rem ;
-    padding-left:1rem ;
+    padding: 3rem 1rem 1.5rem;
   }
   .footer-content {
     flex-direction: row;
@@ -245,10 +244,6 @@
   .footer-section.links a,
   .footer-section.contact p {
     font-size: 0.95rem;
-  }
-
-  .footer-section.image img {
-    height: 160px;
   }
 
   .social-icons {
