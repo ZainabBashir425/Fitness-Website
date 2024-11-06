@@ -133,12 +133,12 @@
     }
     
     .session-btn {
-        width: 23rem;
+        width: 20rem;
         padding: 0.4rem;
     }
     
     .session-btn p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .session-btn .iconImg {
