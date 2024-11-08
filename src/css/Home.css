@@ -171,8 +171,11 @@
     height: 30rem;
     color: #ffffff;
     padding: 3rem;
-    margin-bottom: 25rem;
     position: relative;
+}
+.test-div{
+    width: 100vw;
+    height: 25rem;
 }
 .test-mainheading{
     font-family: 'Teko';
@@ -204,7 +207,7 @@
     height: 15rem;
     position: absolute;
     top: -25%;
-    left: 25%;
+    left: 22%;
 }
 .test-heading{
     font-size: 1.5rem;
@@ -422,7 +425,9 @@
     }
     .testimonials{
         height: 23rem;
-        margin-bottom: 15rem;
+    }
+    .test-div{
+        height: 15rem;
     }
     .test-mainheading {
         font-size: 4rem;
@@ -565,9 +570,11 @@
     }
     .testimonials{
         height: 20rem;
-        margin-bottom: 45rem;
         text-align: center;
         padding: 1.5rem 0;
+    }
+    .test-div{
+        height: 45rem;
     }
 
     .testimonial-cards {
