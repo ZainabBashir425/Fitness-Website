@@ -8,6 +8,7 @@ import {
   card4,
   purpose,
   starIcon,
+  starIcon2,
   testImg1,
   testImg2,
   image5,
@@ -171,7 +172,7 @@ function Home() {
               <img src={starIcon} alt="" />
               <img src={starIcon} alt="" />
               <img src={starIcon} alt="" />
-              <img src={starIcon} alt="" />
+              <img src={starIcon2} alt="" />
             </div>
           </div>
         </div>
