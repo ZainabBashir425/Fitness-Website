@@ -12,5 +12,17 @@ import Instagram from './Instagram.png'
 import Location from './Location.png'
 import Youtube from './Youtube.png'
 import menuIcon from './menuIcon.png'
+import card1 from './card1.png'
+import card2 from './card2.png'
+import card3 from './card3.png'
+import card4 from './card4.png'
+import purpose from './purpose.png'
+import starIcon from './starIcon.png'
+import testImg1 from './testImg1.png'
+import testImg2 from './testImg2.png'
+import image5 from './image\ 5.png'
+import image6 from './image\ 6.png'
+import image7 from './image\ 7.png'
+import image8 from './image\ 9.png'
 
-export {rightArrow, google, facebook,cancelbtn,loginIcon,HeroIcon,Call,FooterImg,Facebook,Google,Instagram,Location,Youtube,menuIcon};
+export {rightArrow, google, facebook,cancelbtn,loginIcon,HeroIcon,Call,FooterImg,Facebook,Google,Instagram,Location,Youtube,menuIcon,card1, card2,card3,card4,purpose,starIcon,testImg1,testImg2,image5,image6,image7,image8};

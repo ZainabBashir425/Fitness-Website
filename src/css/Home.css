@@ -4,10 +4,10 @@
     scale: fit;
     background-color: #000000;
     color: #ffffff;
-    opacity: 90%;
+    opacity: 80%;
     background-size: cover;
     padding: 16rem 6rem 10rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 .welsomeMsg, .qoute{
     font-family: 'Teko';
@@ -47,7 +47,7 @@
     font-weight: 300;
     line-height: 1.7rem;
 }
-.session-btn .iconImg{
+.session-btn .iconImg,.submit-btn .iconImg{
     height: 2.6rem;
     width: 2.6rem;
     align-content: center;
@@ -57,12 +57,298 @@
     background-color: #ffff00;
     border-radius: 50%;
 }
-.session-btn img{
+.session-btn img,.submit-btn img{
     height: 1.3rem;
     width: 1.55rem;
 }
+/* Key Features */
+.key-features{
+    width: 100vw;
+    padding: 3.5rem 0 3.5rem 3.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.keyHeading{
+    font-family: 'Teko';
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem auto;
+}
+.cards{
+    display: flex;
+}
+.card{
+    background: linear-gradient(179.6deg, #800080 0.34%, #000000 99.66%);
+    width: 18rem;
+    border: 3px solid #800080;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    width: 10rem;
+    height: 10rem;
+}
+.card-heading{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: start;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    align-self: flex-start;
+}
+.card-btn{
+    width: 7rem;
+    margin-left: auto;
+    border: 3px solid #ffff00;
+    border-radius: 3rem;
+    color: #d9d9d9;
+    background-color: transparent;
+    padding: 0.3rem;
+    cursor: pointer;
+    align-self: flex-end;
+}
 
-@media (max-width: 768px) {
+/* purpose-section */
+.purpose{
+    width: 100vw;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem 2rem 3rem;
+}
+.purpose-heading{
+    font-family: 'Teko';
+    font-weight: 700;
+    font-size: 8rem;
+    text-align: center;
+    margin: 1rem auto;
+}
+.purpose-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.purpose-content img{
+    width: 42rem;
+    height: 32rem;
+}
+.purpose-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-right: 2.5rem;
+}
+.purpose-text p{
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+.purpose-text h5{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+.purpose-text ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #800080;
+    font-size: 2rem;
+    font-family: 'Teko';
+    font-weight: 700;
+    gap: 1.5rem;
+}
+/* testimonials */
+.testimonials{
+    background: linear-gradient(187.74deg, #800080 7.1%, #000000 92.9%);
+    width: 100vw;
+    height: 30rem;
+    color: #ffffff;
+    padding: 3rem;
+    margin-bottom: 25rem;
+    position: relative;
+}
+.test-mainheading{
+    font-family: 'Teko';
+    font-weight: 700;
+    font-size: 6.25rem;
+}
+.testimonial-cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 94vw;
+    flex-wrap: wrap;
+    gap: 5rem;
+    position: absolute ;
+    top: 60%;
+}
+.test-card{
+    background-color: #000000;
+    color: #ffffff;
+    width: 25rem;
+    border-radius: 2.5rem;
+    position: relative;
+    padding: 10rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.test-card>img{
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    top: -25%;
+    left: 25%;
+}
+.test-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+.test-content{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.test-stars{
+    margin-top: 1rem;
+    align-self: flex-end;
+}
+/* Overview */
+.website-overview{
+    background-color: #000000;
+    padding: 6rem 2rem;
+    width: 100vw;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.overview-mainheading{
+    font-family: 'Teko';
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+}
+.overview-maincontent{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+.overview-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem 0.8rem;
+}
+.overview-card{
+    width: 23.75rem;
+    background-color: #f8f8f8;
+    color: #000000;
+    border-radius: 1.5rem;
+    text-align: start;
+    margin-bottom: 2rem;
+}
+.overview-card img{
+    width: 100%;
+    height: 12.25rem;
+}
+.overview-card .img{
+    position: relative;
+    width: 100%;
+}
+.imgWrap{
+    width: 3rem;
+    height: 1.4rem;
+    background-color: #ffff00;
+    position: absolute;
+    top: 0.3rem;  /* Adjust this value to position it lower or higher */
+    left: 0; /* Adjust this value to move it left or right */
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0.5rem;
+    z-index: 1;
+}
+.overview-card-content{
+    padding: 1.5rem;
+}
+.overview-heading{
+    font-family: 'Teko';
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.overview-content{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+/* contact */
+.contact-home{
+    background-color: #000000;
+    width: 100vw;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 2.5rem;
+}
+.contact-home img{
+    width: 23rem;
+    height: 63.5rem;
+}
+.contact-content{
+    padding: 2rem;
+}
+.contact-heading{
+    color: #800080;
+    font-family: 'Teko';
+    font-weight: 700;
+    font-size: 3rem;
+}
+.contact-mainheading{
+    font-family: 'Teko';
+    font-weight: 700;
+    font-size: 5rem;
+}
+.contact-content input{
+    width: 42%;
+    margin-right: 2rem;
+    border: 3px solid #ffff00;
+}
+.contact-content .textarea{
+    width: 88.5%;
+    margin: 1.5rem 0;
+    border: 3px solid #ffff00;
+    background-color: transparent;
+    border-radius: 50px;
+    height: 10rem;
+}
+.submit-btn{
+    border: 3px solid #ffffff;
+    width: 16.5rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    align-items: center;
+}
+.submit-btn p{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.submit-btn img{
+    width: 25px;
+    height: 21px;
+}
+
+
+
+@media (max-width: 1024px) {
     .heroSection {
         background-image: url("../assets/tabletHero.png");
         padding: 12rem 3rem 8rem;
@@ -102,10 +388,109 @@
         height: 2.4rem;
         width: 2.4rem;
     }
+    .key-features{
+        padding: 2rem 0 2rem 1rem;
+    }
+    .purpose-heading {
+        font-size: 6rem;
+    }
+
+    .purpose-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .purpose-content img {
+        width: 35rem;
+        height: auto;
+    }
+
+    .purpose-text {
+        padding-right: 0;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .purpose-text p, .purpose-text h5 {
+        font-size: 1.25rem;
+    }
+
+    .purpose-text ul {
+        font-size: 2rem;
+        gap: 1.5rem;
+    }
+    .testimonials{
+        height: 23rem;
+        margin-bottom: 15rem;
+    }
+    .test-mainheading {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    .testimonial-cards {
+        gap: 2rem;
+        top: 50%;
+    }
+
+    .test-card {
+        width: 15rem;
+        padding: 4rem 1.5rem 2rem;
+    }
+
+    .test-card > img {
+        width: 6rem;
+        height: 6rem;
+        top: -10%;
+        left: 30%;
+    }
+
+    .test-heading {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .test-content {
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+    .overview-mainheading{
+        font-weight: 500;
+        font-size: 3.8rem;
+    }
+    .overview-maincontent{
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    .contact-home {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Align to the left */
+    }
+    .contact-content input {
+        width: 45%; /* Full width for input fields */
+        margin-right: 1rem; /* Remove right margin */
+    }
+    .contact-content .textarea{
+        width: 92%;
+    }
+    .contact-heading {
+        font-size: 2.5rem; /* Slightly smaller heading */
+    }
+    .contact-mainheading {
+        font-size: 4rem; /* Smaller main heading */
+    }
+    .contact-home>img {
+        width: 70%; /* Full width image */
+        height: auto; /* Maintain aspect ratio */
+        max-height: 30rem; /* Limit height */
+    }
+
 }
 
+
 /* Mobile View */
-@media (max-width: 450px) {
+@media (max-width: 640px) {
     .heroSection {
         background-image: url("../assets/mobileHero.png");
         padding: 8rem 1.5rem 6rem;
@@ -144,5 +529,120 @@
     .session-btn .iconImg {
         height: 2rem;
         width: 2rem;
+    }
+    .keyHeading{
+        font-size: 3rem;
+    }
+    .purpose-heading {
+        font-size: 4rem;
+    }
+
+    .purpose-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .purpose-content img {
+        width: 100%;
+        height: auto;
+        max-width: 25rem;
+    }
+
+    .purpose-text p, .purpose-text h5 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .purpose-text ul {
+        font-size: 1.2rem;
+        gap: 1rem;
+        text-align: center;
+    }
+    .test-mainheading {
+        font-size: 2.25rem;
+        font-weight: 500;
+    }
+    .testimonials{
+        height: 20rem;
+        margin-bottom: 45rem;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+
+    .testimonial-cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        top: 50%;
+        left: 3%;
+    }
+
+    .test-card {
+        width: 100%;
+        max-width: 22rem;
+        padding: 8rem 1.5rem 2rem;
+        margin-right: 0;
+        align-self: center;
+    }
+
+    .test-card > img {
+        width: 10rem;
+        height: 10rem;
+        top: -15%;
+        left: calc(50% - 5rem);
+    }
+
+    .test-heading {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .test-content {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .test-stars {
+        align-self: center;
+    }
+    .website-overview{
+        padding: 4rem 1rem;
+    }
+    .overview-card{
+        width: 18rem;
+    }
+    .overview-mainheading{
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .overview-maincontent{
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+    .contact-home{
+        padding: 1rem;
+    }
+    .contact-content{
+        padding: 1rem;
+    }
+    .contact-heading {
+        font-size: 2rem; /* Smaller heading */
+    }
+    .contact-mainheading {
+        font-size: 3rem; /* Smaller main heading */
+    }
+    .contact-content input, .contact-content .textarea {
+        width: 100%; /* Full width for smaller screens */
+        margin-right: 0; /* Remove right margin */
+    }
+    .submit-btn p {
+        font-size: 1.1rem; /* Smaller font */
+    }
+    .contact-home>img {
+        margin-top: 1rem;
+        width: 100%; /* Full width image */
+        height: auto; /* Maintain aspect ratio */
     }
 }
