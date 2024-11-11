@@ -25,5 +25,8 @@ import image5 from './image 5.png'
 import image6 from './image 6.png'
 import image7 from './image 7.png'
 import image8 from './image 9.png'
+import abouthero from './about-hero.png'
+import aboutmission from './about-mission.png'
+import aboutvision from './about-vision.png'
 
-export {rightArrow, google, facebook,cancelbtn,loginIcon,HeroIcon,Call,FooterImg,Facebook,Google,Instagram,Location,Youtube,menuIcon,card1, card2,card3,card4,purpose,starIcon,starIcon2,testImg1,testImg2,image5,image6,image7,image8};
+export {rightArrow, google, facebook,cancelbtn,loginIcon,HeroIcon,Call,FooterImg,Facebook,Google,Instagram,Location,Youtube,menuIcon,card1, card2,card3,card4,purpose,starIcon,starIcon2,testImg1,testImg2,image5,image6,image7,image8,abouthero,aboutmission,aboutvision};
