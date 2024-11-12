@@ -60,10 +60,6 @@
     margin-bottom: 0.8rem;
     width: 5rem;
 }
-.map-image img{
-    height: 600px;
-    width: 100vw;
-}
 @media (max-width: 1024px) {
     .contact-hero {
       text-align: center;
@@ -115,9 +111,6 @@
       width: 4rem;
     }
   
-    .map-image img {
-      height: 450px;
-    }
   }
   
   /* Styles for screens 640px and below */
@@ -172,7 +165,4 @@
       width: 3rem;
     }
   
-    .map-image img {
-      height: 300px;
-    }
   }

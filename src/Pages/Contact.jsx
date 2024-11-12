@@ -5,6 +5,7 @@ import {
   HeroIcon,
   image8,Google,Call,Location,contacthero,map
 } from "../assets";
+import {MapComponent} from '../components'
 
 function Contact() {
   return (
@@ -52,8 +53,10 @@ function Contact() {
         <img src={image8} alt="" />
       </div>
       <div className="map-image">
-        <img src={map} alt="" />
+        <MapComponent /> 
       </div>
+
+
     </>
   )
 }
