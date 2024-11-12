@@ -9,6 +9,9 @@ function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
   return (
     <header>
       <nav>
@@ -25,6 +28,7 @@ function Header() {
               className={({ isActive }) =>
                 `nav-link ${isActive ? "active" : ""}`
               }
+              onClick={closeMenu}
             >
               Home
             </NavLink>
@@ -35,6 +39,7 @@ function Header() {
               className={({ isActive }) =>
                 `nav-link ${isActive ? "active" : ""}`
               }
+              onClick={closeMenu}
             >
               About Us
             </NavLink>
@@ -45,6 +50,7 @@ function Header() {
               className={({ isActive }) =>
                 `nav-link ${isActive ? "active" : ""}`
               }
+              onClick={closeMenu}
             >
               Blogs
             </NavLink>
@@ -55,6 +61,7 @@ function Header() {
               className={({ isActive }) =>
                 `nav-link ${isActive ? "active" : ""}`
               }
+              onClick={closeMenu}
             >
               FAQs
             </NavLink>

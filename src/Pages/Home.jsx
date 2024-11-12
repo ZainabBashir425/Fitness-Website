@@ -227,7 +227,7 @@ function Home() {
           <input type="text" placeholder="Phone" />
           <input type="email" placeholder="Email" />
           <input type="text" placeholder="Subject" />
-          <input type="text" className="textarea" id="message" />
+          <textarea className="textarea" id="message" />
           <div className="submit-btn">
           <p>Send Now</p>
           <div className="iconImg">
