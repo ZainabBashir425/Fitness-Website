@@ -3,7 +3,7 @@ import '../css/Contact.css'
 import '../css/Home.css'
 import {
   HeroIcon,
-  image8,Google,Call,Location,contacthero,map
+  image8,Google,Call,Location,contacthero
 } from "../assets";
 import {MapComponent} from '../components'
 

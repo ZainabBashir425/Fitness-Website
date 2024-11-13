@@ -1,6 +1,6 @@
 /* Hero Section */
 .heroSection{
-    background-image: url("../assets/image\ 1.png");
+    background-image: url("../assets/Home-Assets/image\ 1.png");
     scale: fit;
     background-color: #000000;
     color: #ffffff;
@@ -271,8 +271,8 @@
     height: 1.4rem;
     background-color: #ffff00;
     position: absolute;
-    top: 0.3rem;  /* Adjust this value to position it lower or higher */
-    left: 0; /* Adjust this value to move it left or right */
+    top: 0.3rem;  
+    left: 0; 
     border-top-left-radius: 1rem;
     border-top-right-radius: 0.5rem;
     z-index: 1;
@@ -353,7 +353,7 @@
 
 @media (max-width: 1024px) {
     .heroSection {
-        background-image: url("../assets/tabletHero.png");
+        background-image: url("../assets/Home-Assets/tabletHero.png");
         padding: 12rem 3rem 8rem;
     }
     
@@ -497,7 +497,7 @@
 /* Mobile View */
 @media (max-width: 640px) {
     .heroSection {
-        background-image: url("../assets/mobileHero.png");
+        background-image: url("../assets/Home-Assets/mobileHero.png");
         padding: 8rem 1.5rem 6rem;
     }
     
