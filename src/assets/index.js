@@ -40,5 +40,10 @@ import blogA4 from './Blogs-Assets/blogA4.png'
 import blogA5 from './Blogs-Assets/blogA5.png'
 import blogA6 from './Blogs-Assets/blogA6.png'
 import arrowUpRightIcon from './Blogs-Assets/arrowUpRightIcon.png'
+import DownArrow from './FAQ-Assets/DownArrow.png'
+import FAQ from './FAQ-Assets/FAQ.png'
+import SearchIcon from './FAQ-Assets/search icon.png'
+import FAQHeroLeft from './FAQ-Assets/FAQHeroLeft.png'
+import FAQHeroRight from './FAQ-Assets/FAQHeroRight.png'
 
-export {rightArrow, google, facebook,cancelbtn,loginIcon,HeroIcon,Call,FooterImg,Facebook,Google,Instagram,Location,Youtube,menuIcon,card1, card2,card3,card4,purpose,starIcon,starIcon2,testImg1,testImg2,image5,image6,image7,image8,abouthero,aboutmission,aboutvision,contacthero,blog1,blog2,blog3,blogA1,blogA2,blogA3,blogA4,blogA5,blogA6,blogHero,arrowUpRightIcon};
+export {rightArrow, google, facebook,cancelbtn,loginIcon,HeroIcon,Call,FooterImg,Facebook,Google,Instagram,Location,Youtube,menuIcon,card1, card2,card3,card4,purpose,starIcon,starIcon2,testImg1,testImg2,image5,image6,image7,image8,abouthero,aboutmission,aboutvision,contacthero,blog1,blog2,blog3,blogA1,blogA2,blogA3,blogA4,blogA5,blogA6,blogHero,arrowUpRightIcon,DownArrow,FAQ,FAQHeroLeft,FAQHeroRight,SearchIcon};
